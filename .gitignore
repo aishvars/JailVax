@@ -1,0 +1,44 @@
+# ── Byte-compiled / optimized / DLL files ──
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ── Environment variables (SECRETS) ──
+.env
+*.env
+!.env.example
+
+# ── OS generated files ──
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# ── IDE / Editor ──
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Python virtual environments ──
+venv/
+.venv/
+env/
+
+# ── Logs ──
+*.log
+eval_log.txt
+
+# ── Replay progress (auto-generated) ──
+transcripts_with_jailvax/replay_progress.json
+
+# ── Conversation summaries with potential leaked keys ──
+Full Architecture/PAIR_attack-main/JailbreakingLLMs/conversation_summary.txt
+
+# ── Wandb logs (contain API keys in binary format) ──
+wandb/
+**/wandb/
+*.wandb
